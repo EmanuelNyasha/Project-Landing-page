@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lost and found Dogs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,
+100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,
+900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
             <div class="logo">THE LOST Dogs-Reunited HOME</div>
-            <ul>
+                <ul class="links">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Contact us</a></li>
-            </ul>
+              </ul>
         </div>
     </nav>
 
     <header class="header">
         <div class="container">
+            <div>
             <h1>Lost and Found</h1>
             <p>
                 Welcome to our Dog Lost and Found page! We understand how distressing
@@ -30,56 +36,64 @@
                 find a stray. Together, we can bring our fury friends back home. 
              </p>
              <div class="button"><button>Report a lost or found pet now</button></div>
+            </div>
              <div class="item">this is a placeholder for an image</div>
              </div>
     </header>
 
-    <section class="images">
-        <article class="container-images">
-            <h2>Latest lost and found Dogs:</h2>
-            <div class="image">
-                 <img src="webpage-images/bernese-mountain-dog.jpg" alt="bernese mountain dog">
+         <section>
+         <h2>Latest lost and found Dogs:</h2>
+         </section>
+
+         <section class="container-images">
+             <div class="image">
+                 <img class="dogs" src="webpage-images/bernese-mountain-dog.jpg" alt="bernese mountain dog">
                  <button>Found Dog</button>
                  <p>Waterfalls area</p>
-            </div>
-            <div class="image">
-                <img src="webpage-images/rhodesian-ridgeback.jpg" alt="rhodesian ridgeback">
+             </div>
+             <div class="image">
+                <img class="dogs" src="webpage-images/rhodesian-ridgeback.jpg" alt="rhodesian ridgeback">
                 <button>Found Dog</button>
                 <p>Hillside area</p>
-            </div>
-            <div class="image">
-                <img src="webpage-images/german-shorthaired-pointer.jpg" alt="german shorthaired pointer">
+             </div>
+             <div class="image">
+                <img class="dogs" src="webpage-images/german-shorthaired-pointer.jpg" alt="german shorthaired pointer">
                 <button>Lost Dog</button>
                 <p>Glenview area</p>
-            </div>
-            <div class="image">
-                <img src="webpage-images/english-bulldog.jpg" alt="english bulldog">
+             </div>
+             <div class="image">
+                <img class="dogs" src="webpage-images/english-bulldog.jpg" alt="english bulldog">
                 <button>Found Dog</button>
                 <p>Glenview area</p>
-            </div>
-            <div class="all-reports">
-                <button>View all lost and found pet reports</button>
-            </div>
-        </article>
+             </div>
+         </section>
 
-        <article class="container-testimonials">
-            <p>"Your service is first class. The flyers and posters are excellent. 
+         <section class="reports">
+             <div>
+                 <button>View all lost and found pet reports</button>
+             </div>
+         </section>
+
+        <section class="testimonials">
+            <div class="feedback">
+            <p class="input">"Your service is first class. The flyers and posters are excellent. 
                 Your website is easy to access and it is simple to close a report."
             </p>
-            <p>Linda, Brighton- Owner of Molly the bulldog</p>
-            <button>Read more testimonials from our users</button>
-        </article>
-
-        <article class="container-register">
-            <div class="sign-up">
-           <h3>Register with us- it's free!Dogs-Reunited</h3>  
-           <p>Register by clicking  that button right oveer there!</p>
-           <button>Register</button>   
+            <p class="name">Linda, Brighton- Owner of Molly the bulldog</p>
+            <button>Read more testimonials from our users</button
             </div>
-        </article>
-    </section>
+        </section>
 
-    <footer><p>Copyright &copy The Odin Project 2021</p></footer>
-    
+        <section class="register">
+            <div class="sign-up">
+             <div>
+           <h3>Register with us- it's free!Dogs-Reunited</h3>  
+           <p>Register by clicking  that button right over there!</p>  
+            </div>
+            <button>Register</button>
+            </div> 
+        </section>
+
+    <footer class="footer"><p>Copyright &copy The Odin Project 2021</p></footer>
 </body>
 </html>

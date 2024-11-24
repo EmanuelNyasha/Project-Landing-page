@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+.navbar .container {
+    width: 800px;
+}
+
+.header .container {
+    width: 800px;
+}
+.container a {
+    color: #f9faf8;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container .links {
+    list-style-type: none;
+}
+
+.header {
+    color:#f9faf8;
+    background-color: #1f2937;
+    padding-bottom: 80px;
+}
+
+.container h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.container p {
+    max-width: 400px;
+}
+
+.container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 120px;
+    height: 50px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 12px;
+}
+
+.container .item {
+    display: block;
+    width: 400px;
+    height: 150px;
+    background-color: #67678a;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #3882f6;
+}
+
+.image button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    margin: 10px 0px 10px 30px;
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+}
+
+.image p {
+    text-align: center;
+    margin-left: 12px;
+}
+
+.container-images .image {
+    width: 150px;
+    height: 200px;
+    margin: 13px;
+}
+
+.dogs {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.testimonials {
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+.sign-up {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    width: 800px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.sign-up div {
+    margin-left: 80px;
+}
+
+.sign-up button {
+    margin-right: 80px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    height: 20px;
+    width: 60px;
+    border-radius: 8px;
+}
+
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.reports button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.feedback {
+    height: 300px;
+    width: 700px;
+}
+
+.testimonials button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 8px;
+}
+.navbar {
+display: flex;
+justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .links { 
+    display: flex;
+    gap: 12px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.container .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 15px 0 10px 0;
+}
+.container-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.reports {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback p {
+    margin-left: 25px;
+}
+
+.feedback .name {
+    font-weight: bold;
+    margin-left: 290px;
+}
+
+.feedback .input {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.register .sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+.footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
